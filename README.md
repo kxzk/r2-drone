@@ -1,8 +1,12 @@
-![header](https://i.imgur.com/cygGwy6.png)
+<h3 align="center">R2</h3>
 
 <br>
 
-`Goal` → AI voice & vision autonomous drone + chatbot, à la [R2](https://www.starwars.com/databank/r2-d2/).
+> `Goal` → AI voice & vision autonomous drone + chatbot, à la [R2](https://www.starwars.com/databank/r2-d2/).
+
+<br>
+
+![diagram](https://i.imgur.com/85QiYV4.jpg)
 
 <br>
 
@@ -27,6 +31,13 @@
 
 * [arduino nano esp32](https://store-usa.arduino.cc/products/nano-esp32?selectedStore=us)
 * [gravity: ai offline learning voice recognition sensor](https://www.dfrobot.com/product-2665.html)
+
+<br>
+
+#### `quadcopter math/physics`
+
+* [quadcopter dynamics and simulation](https://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/)
+* [3D quadcopter, derivation, simulation, animation](https://www.youtube.com/watch?v=4hlQ2pf842U)
 
 <br>
 
