@@ -48,6 +48,8 @@
 #### `c++ libraries`
 
 * [opencv](https://github.com/opencv/opencv)
+* [ftxui](https://github.com/ArthurSonzogni/FTXUI)
+* [imtui](https://github.com/ggerganov/imtui)
 
 <br>
 
