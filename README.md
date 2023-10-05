@@ -6,10 +6,6 @@
 
 <br>
 
-`Idea` → Arduino speech recognition → commands → response → action
-
-<br>
-
 ---
 
 <br>
