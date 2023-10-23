@@ -5,6 +5,9 @@
 > `Goal` → AI voice & vision autonomous drone + chatbot, à la [R2](https://www.starwars.com/databank/r2-d2/).
 
 <br>
+
+![droneoverview](https://i.imgur.com/9pmgEsE.jpg)
+
 <br>
 
 ---
