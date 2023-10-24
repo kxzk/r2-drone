@@ -9,9 +9,6 @@
 ![droneoverview](https://i.imgur.com/9pmgEsE.jpg)
 
 <br>
-
----
-
 <br>
 
 #### `drone`
