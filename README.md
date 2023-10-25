@@ -5,8 +5,52 @@
 > `Goal` → AI voice & vision autonomous drone + chatbot, à la [R2](https://www.starwars.com/databank/r2-d2/).
 
 <br>
+<br>
 
 ![droneoverview](https://i.imgur.com/9pmgEsE.jpg)
+
+<br>
+<br>
+
+* `v1 - up and working`
+
+```text
+Got very rough demo working.
+However, it only registers `takeoff` and `land` as commands.
+Also, configuration is over complicated.
+```
+
+<br>
+
+* `v1.5 - chatbot + speaker`
+
+```text
+- [ ] get microphone working + parse voice input
+- [ ] send to chatGPT API
+- [ ] return response via speaker (maybe use 11 labs for voice generation?)
+```
+
+<br>
+
+* `v2 - simplify and cleanup`
+
+```text
+- [ ] restructure Tello API to C++ class
+- [ ] tighten up delays between commands
+- [ ] add `forward`, `back` and `turning` commands to class
+- [ ] re-work layout to function solely from ESP32
+```
+
+<br>
+
+* `v3 - infinity and beyond`
+
+```text
+- [ ] replace gravity voice sensor with Arduino Nano 33 BLE Sense
+- [ ] add voice recognition via Tensorflow TinyML
+- [ ] add vision support/segmentation via openCV on main comp
+- [ ] work on chatGPT instruction generation via API (see Microsoft paper)
+```
 
 <br>
 <br>
@@ -20,13 +64,13 @@
 #### `papers`
 
 * [microsoft chatgpt drone](https://github.com/microsoft/PromptCraft-Robotics)
-* [open x-embodiment: robotic learning datasetse and rt-x models](https://robotics-transformer-x.github.io)
 
 <br>
 
 #### `arduino`
 
 * [arduino nano esp32](https://store-usa.arduino.cc/products/nano-esp32?selectedStore=us)
+* [arduino nano 33 ble sense](https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense?selectedStore=us)
 * [gravity: ai offline learning voice recognition sensor](https://www.dfrobot.com/product-2665.html)
 
 <br>
@@ -41,11 +85,8 @@
 #### `arduino reference`
 
 * [arduino nano esp32 cheatsheet](https://docs.arduino.cc/tutorials/nano-esp32/cheat-sheet)
-* [esp32 examples](https://github.com/espressif/arduino-esp32/tree/master/cores/esp32)
-* [wifi lib](https://www.arduino.cc/reference/en/libraries/wifi/)
-* [i2s lib](https://docs.arduino.cc/learn/built-in-libraries/i2s)
-* [esp32 wifi comms between two boards](https://randomnerdtutorials.com/esp32-client-server-wi-fi/)
-* [esp32 wifi lib funcs](https://randomnerdtutorials.com/esp32-useful-wi-fi-functions-arduino/)
+* [arduino nano esp32 datasheet](https://docs.arduino.cc/resources/datasheets/ABX00083-datasheet.pdf)
+* [arduino libraries documentation](https://www.arduino.cc/reference/en/libraries/)
 
 <br>
 
@@ -60,8 +101,8 @@
 #### `references`
 
 * [djitellopy lib](https://github.com/damiafuentes/DJITelloPy)
-* [tello sdk v2.0](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf)
 * [tello sdk v1.3](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf)
 * [tello python lib](https://github.com/dji-sdk/Tello-Python)
 * [tello async lib](https://github.com/robagar/tello-asyncio)
 * [tello python examples](https://github.com/dji-sdk/Tello-Python)
+* [tello arduino](https://github.com/akshayvernekar/telloArduino)
