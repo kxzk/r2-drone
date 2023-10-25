@@ -87,6 +87,8 @@ Also, configuration is over complicated.
 * [arduino nano esp32 cheatsheet](https://docs.arduino.cc/tutorials/nano-esp32/cheat-sheet)
 * [arduino nano esp32 datasheet](https://docs.arduino.cc/resources/datasheets/ABX00083-datasheet.pdf)
 * [arduino libraries documentation](https://www.arduino.cc/reference/en/libraries/)
+* [gravity: voice sensor github](https://github.com/DFRobot/DFRobot_DF2301Q?tab=readme-ov-file)
+* [gravity: voice sensor docs](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#target_2)
 
 <br>
 
