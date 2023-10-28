@@ -12,16 +12,6 @@
 <br>
 <br>
 
-* `v1 - up and working`
-
-```text
-Got very rough demo working.
-However, it only registers `takeoff` and `land` as commands.
-Also, configuration is over complicated.
-```
-
-<br>
-
 * `v1.5 - chatbot + speaker`
 
 ```text
@@ -38,7 +28,7 @@ Also, configuration is over complicated.
 - [ ] restructure Tello API to C++ class
 - [ ] tighten up delays between commands
 - [ ] add `forward`, `back` and `turning` commands to class
-- [ ] re-work layout to function solely from ESP32
+- [x] re-work layout to function solely from ESP32
 ```
 
 <br>
@@ -53,6 +43,14 @@ Also, configuration is over complicated.
 ```
 
 <br>
+
+* `v4 - fastSAM + OpenCV`
+
+```text
+- [ ] investigate getting FastSAM on microcontroller
+```
+
+<br>
 <br>
 
 #### `drone`
@@ -64,6 +62,7 @@ Also, configuration is over complicated.
 #### `papers`
 
 * [microsoft chatgpt drone](https://github.com/microsoft/PromptCraft-Robotics)
+* [Unifying Foundation Models with Quadrotor Control for Visual Tracking Beyond Object Categories](https://arxiv.org/pdf/2310.04781.pdf)
 
 <br>
 
