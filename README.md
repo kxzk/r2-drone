@@ -61,8 +61,11 @@
 
 #### `papers`
 
-* [microsoft chatgpt drone](https://github.com/microsoft/PromptCraft-Robotics)
+* [PromptCraft Robotics](https://github.com/microsoft/PromptCraft-Robotics)
 * [Unifying Foundation Models with Quadrotor Control for Visual Tracking Beyond Object Categories](https://arxiv.org/pdf/2310.04781.pdf)
+* [VOYAGER: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/pdf/2305.16291.pdf)
+* [HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS](https://ai.meta.com/static-resource/habitat3)
+* [EUREKA: HUMAN-LEVEL REWARD DESIGN VIA CODING LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2310.12931.pdf)
 
 <br>
 
