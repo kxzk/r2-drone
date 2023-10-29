@@ -2,7 +2,7 @@
 
 <br>
 
-> `Goal` → AI voice & vision autonomous drone + chatbot, à la [R2](https://www.starwars.com/databank/r2-d2/).
+> _AI droid, à la [R2D2](https://www.starwars.com/databank/r2-d2/)._
 
 <br>
 <br>
@@ -12,43 +12,15 @@
 <br>
 <br>
 
-* `v1.5 - chatbot + speaker`
+### `TODO`
 
-```text
-- [ ] get microphone working + parse voice input
-- [ ] send to chatGPT API
-- [ ] return response via speaker (maybe use 11 labs for voice generation?)
-```
-
-<br>
-
-* `v2 - simplify and cleanup`
-
-```text
+- [ ] arduino chatgpt chatbot w/ speaker
 - [ ] restructure Tello API to C++ class
-- [ ] tighten up delays between commands
-- [ ] add `forward`, `back` and `turning` commands to class
-- [x] re-work layout to function solely from ESP32
-```
-
-<br>
-
-* `v3 - infinity and beyond`
-
-```text
-- [ ] replace gravity voice sensor with Arduino Nano 33 BLE Sense
-- [ ] add voice recognition via Tensorflow TinyML
-- [ ] add vision support/segmentation via openCV on main comp
-- [ ] work on chatGPT instruction generation via API (see Microsoft paper)
-```
-
-<br>
-
-* `v4 - fastSAM + OpenCV`
-
-```text
-- [ ] investigate getting FastSAM on microcontroller
-```
+- [ ] add additional movement commands for Tello
+- [ ] replace voice sensor with arduino 33 ble sense w/ TinyML
+- [ ] add opencv using C++ from macbook for drone camera feed
+- [ ] image segmentation via SAM or FastSAM
+- [ ] add chatGPT instruction generation using C++ Tello API
 
 <br>
 <br>
@@ -61,26 +33,11 @@
 
 #### `papers`
 
-* [PromptCraft Robotics](https://github.com/microsoft/PromptCraft-Robotics)
+* [ChatGPT for Robotics: Design Principles and Model Abilities](https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf)
 * [Unifying Foundation Models with Quadrotor Control for Visual Tracking Beyond Object Categories](https://arxiv.org/pdf/2310.04781.pdf)
 * [VOYAGER: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/pdf/2305.16291.pdf)
 * [HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS](https://ai.meta.com/static-resource/habitat3)
 * [EUREKA: HUMAN-LEVEL REWARD DESIGN VIA CODING LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2310.12931.pdf)
-
-<br>
-
-#### `arduino`
-
-* [arduino nano esp32](https://store-usa.arduino.cc/products/nano-esp32?selectedStore=us)
-* [arduino nano 33 ble sense](https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense?selectedStore=us)
-* [gravity: ai offline learning voice recognition sensor](https://www.dfrobot.com/product-2665.html)
-
-<br>
-
-#### `quadcopter math/physics`
-
-* [quadcopter dynamics and simulation](https://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/)
-* [3D quadcopter, derivation, simulation, animation](https://www.youtube.com/watch?v=4hlQ2pf842U)
 
 <br>
 
@@ -91,6 +48,13 @@
 * [arduino libraries documentation](https://www.arduino.cc/reference/en/libraries/)
 * [gravity: voice sensor github](https://github.com/DFRobot/DFRobot_DF2301Q?tab=readme-ov-file)
 * [gravity: voice sensor docs](https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#target_2)
+
+<br>
+
+#### `quadcopter math/physics`
+
+* [quadcopter dynamics and simulation](https://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/)
+* [3D quadcopter, derivation, simulation, animation](https://www.youtube.com/watch?v=4hlQ2pf842U)
 
 <br>
 
