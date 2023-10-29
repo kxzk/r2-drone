@@ -68,6 +68,7 @@
 
 #### `references`
 
+* [prompcraft robotics](https://github.com/microsoft/PromptCraft-Robotics?tab=readme-ov-file)
 * [djitellopy lib](https://github.com/damiafuentes/DJITelloPy)
 * [tello sdk v1.3](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf)
 * [tello python lib](https://github.com/dji-sdk/Tello-Python)
