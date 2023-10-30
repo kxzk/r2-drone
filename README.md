@@ -38,6 +38,7 @@
 * [VOYAGER: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/pdf/2305.16291.pdf)
 * [HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS](https://ai.meta.com/static-resource/habitat3)
 * [EUREKA: HUMAN-LEVEL REWARD DESIGN VIA CODING LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2310.12931.pdf)
+* [SAM-CLIP: Merging Vision Foundation Models towards Semantic and Spatial Understanding](https://arxiv.org/abs/2310.15308)
 
 <br>
 
@@ -75,3 +76,4 @@
 * [tello async lib](https://github.com/robagar/tello-asyncio)
 * [tello python examples](https://github.com/dji-sdk/Tello-Python)
 * [tello arduino](https://github.com/akshayvernekar/telloArduino)
+* [tello cpp lib](https://github.com/vss2sn/tello)
