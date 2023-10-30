@@ -15,8 +15,6 @@
 ### `TODO`
 
 - [ ] arduino chatgpt chatbot w/ speaker
-- [ ] restructure Tello API to C++ class
-- [ ] add additional movement commands for Tello
 - [ ] replace voice sensor with arduino 33 ble sense w/ TinyML
 - [ ] add opencv using C++ from macbook for drone camera feed
 - [ ] image segmentation via SAM or FastSAM
